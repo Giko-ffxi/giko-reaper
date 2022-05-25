@@ -4,8 +4,6 @@ _addon.author 	= 'giko'
 _addon.name 	= 'giko-reaper'
 _addon.version 	= '1.0.0'
 
-watcher = require('core.watcher')
+reaper = require('core.reaper')
 
-ashita.register_event('load', watcher.load)
-ashita.register_event('render', watcher.watch)
-ashita.register_event('incoming_packet', watcher.listen)
+ashita.register_event('incoming_packet', reaper.listen)
