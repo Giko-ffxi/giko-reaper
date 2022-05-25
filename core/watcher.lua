@@ -7,7 +7,9 @@ local watcher  = { cache = string.format('%s\\..\\giko-cache\\cache\\giko.monste
 local ids      = {}
 
 watcher.load  = function()
+
     ids = cache.get_all(watcher.cache)
+    
 end
 
 watcher.watch = function(mode, input, m_mode, m_message, blocked)
