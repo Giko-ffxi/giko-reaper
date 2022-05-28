@@ -17,7 +17,7 @@ reaper.listen = function(id, size, packet, packet_modified, blocked)
             for key,mob in ipairs(monster.notorious) do
                 for n,name in ipairs(common.flatten(mob.names)) do
                     if string.lower(deceased.Name) == string.lower(name) and deceased.SpawnFlags == 0x0010 then
-                        chat.tell(config.broadcaster, string.format('@giko set-tod %s %s', string.lower(string.gsub(deceased.Name, ' ', '-')), os.date('%Y-%m-%d %H:%M:%S %z', os.time() + config.lag)))
+                        chat.tell(config.broadcaster, string.format('@giko set-tod %s now', string.lower(string.gsub(deceased.Name, ' ', '-'))))
                     end
                 end
             end
