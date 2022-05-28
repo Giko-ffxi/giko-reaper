@@ -10,9 +10,10 @@ reaper.listen = function(id, size, packet, packet_modified, blocked)
     if (id == 0x38) then
 
         local index    = struct.unpack('H', packet, 0x10 + 1)
+        local zone     = AshitaCore:GetResourceManager():GetString('areas', AshitaCore:GetDataManager():GetParty():GetMemberZone(0));
         local deceased = GetEntity(index)
 
-        if (deceased ~= nil) then
+        if (deceased ~= nil and string.find(string.lower(zone), "nyzul") == nil and string.find(string.lower(zone), "riverne") == nil then
             for key,mob in ipairs(monster.notorious) do
                 for n,name in ipairs(common.flatten(mob.names)) do
                     if string.lower(deceased.Name) == string.lower(name) and deceased.SpawnFlags == 0x0010 then
