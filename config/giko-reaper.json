@@ -1,4 +1,27 @@
 {
     "broadcaster": "Giko",
-    "delay": 3
+    "monsters": {
+        "Adamantoise": {"broadcast": true},
+        "Argus": {"broadcast": false},
+        "Behemoth": {"broadcast": true},
+        "Capricious Cassie": {"broadcast": false},
+        "Carmine Dobsonfly": {"broadcast": false},
+        "Cerberus": {"broadcast": true},
+        "Devil Manta": {"broadcast": false},
+        "Fafnir": {"broadcast": true},
+        "Hydra": {"broadcast": true},
+        "Jormungand": {"broadcast": true},
+        "King Arthro": {"broadcast": true},
+        "King Vinegarroon": {"broadcast": false},
+        "Khimaira": {"broadcast": true},
+        "Kreutzet": {"broadcast": false},
+        "Padfoot": {"broadcast": false},
+        "Roc": {"broadcast": false},
+        "Serket": {"broadcast": false},
+        "Simurgh": {"broadcast": false},
+        "Tiamat": {"broadcast": true},
+        "Voluptuous Vivian": {"broadcast": false},
+        "Vrtra": {"broadcast": true},
+        "Xolotl": {"broadcast": false}
+    }
 }
