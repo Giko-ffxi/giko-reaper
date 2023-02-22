@@ -8,6 +8,7 @@
         "Carmine Dobsonfly": {"broadcast": false},
         "Cerberus": {"broadcast": true},
         "Devil Manta": {"broadcast": false},
+        "Eastern Shadow": {"broadcast": false},
         "Fafnir": {"broadcast": true},
         "Hydra": {"broadcast": true},
         "Jormungand": {"broadcast": true},
@@ -15,6 +16,7 @@
         "King Vinegarroon": {"broadcast": false},
         "Khimaira": {"broadcast": true},
         "Kreutzet": {"broadcast": false},
+        "Orcish Overlord": {"broadcast": false},
         "Padfoot": {"broadcast": false},
         "Roc": {"broadcast": false},
         "Serket": {"broadcast": false},
@@ -22,6 +24,8 @@
         "Tiamat": {"broadcast": true},
         "Voluptuous Vivian": {"broadcast": false},
         "Vrtra": {"broadcast": true},
-        "Xolotl": {"broadcast": false}
+        "Xolotl": {"broadcast": false},
+        "Yagudo Avatar": {"broadcast": false},
+        "Western Shadow": {"broadcast": false}
     }
 }
